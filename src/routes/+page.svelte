@@ -1,3 +1,3 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<div class="flex min-h-screen items-center justify-center bg-black">
+	<p class="text-white">27984 viewmount elves</p>
+</div>
