@@ -1,9 +1,7 @@
 <script lang="ts">
-	// TODO: replace with the team's real social links
 	const socials = [
-		{ href: '#', label: 'Instagram' },
-		{ href: '#', label: 'YouTube' },
-		{ href: '#', label: 'GitHub' }
+		{ href: 'https://github.com/ftc-27984', label: 'GitHub' },
+		{ href: 'https://ftcscout.org/teams/27984', label: 'FTCScout' }
 	];
 </script>
 
@@ -11,7 +9,12 @@
 	<p>&copy; {new Date().getFullYear()} FTC 27984 — Viewmount Elves</p>
 	<div class="flex gap-5">
 		{#each socials as social}
-			<a href={social.href} class="transition-colors hover:text-white">{social.label}</a>
+			<a
+				href={social.href}
+				target="_blank"
+				rel="noopener noreferrer"
+				class="transition-colors hover:text-white">{social.label}</a
+			>
 		{/each}
 	</div>
 </footer>
