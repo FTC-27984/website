@@ -1,5 +1,6 @@
 <script lang="ts">
 	const socials = [
+		{ href: 'https://www.instagram.com/viewmountelves27984/', label: 'Instagram' },
 		{ href: 'https://github.com/ftc-27984', label: 'GitHub' },
 		{ href: 'https://ftcscout.org/teams/27984', label: 'FTCScout' }
 	];
